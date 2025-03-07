@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item {
+            flex: 1 1 calc(25% - 20px);
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .gallery-item {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center; margin-top: 20px;">Galeria de Fotos</h1>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/08/06/422558527-kjde6vl4f5avjjjblh5xygvwd4.png" alt="Foto 1">
+        </div>
+        <div class="gallery-item">
+            <img src="https://cdn.maioresemelhores.com/imagens/mm-gatos-1-cke.jpg" alt="Foto 2">
+        </div>
+        <div class="gallery-item">
+            <img src="https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2021/08/12/349627401-gato-preto-fofo.jpg" alt="Foto 3">
+        </div>
+        <div class="gallery-item">
+            <img src="https://i.pinimg.com/236x/75/d3/2c/75d32c63ee1453fab84e88094c2e088f.jpg" alt="Foto 4">
+        </div>
+        <!-- Adicione mais fotos aqui -->
+    </div>
+
+</body>
+</html>
