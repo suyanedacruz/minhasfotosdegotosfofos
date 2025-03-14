@@ -4,49 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Fotos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            padding: 20px;
-        }
-        .gallery img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
-        }
-        .gallery-item {
-            flex: 1 1 calc(25% - 20px);
-            box-sizing: border-box;
-        }
-        @media (max-width: 768px) {
-            .gallery-item {
-                flex: 1 1 calc(50% - 20px);
-            }
-        }
-        @media (max-width: 480px) {
-            .gallery-item {
-                flex: 1 1 100%;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
 
-    <h1 style="text-align: center; margin-top: 20px;">Galeria de Fotos</h1>
+    <h1>Galeria de Fotos</h1>
 
     <div class="gallery">
         <div class="gallery-item">
@@ -62,27 +24,26 @@
             <img src="https://i.pinimg.com/236x/75/d3/2c/75d32c63ee1453fab84e88094c2e088f.jpg" alt="Foto 4">
         </div>
         <div class="gallery-item">
-            <img src="https://www.criatives.com.br/wp-content/uploads/2020/05/gatos-06.jpg" alt="Foto 4">
+            <img src="https://www.criatives.com.br/wp-content/uploads/2020/05/gatos-06.jpg" alt="Foto 5">
         </div>
         <div class="gallery-item">
-            <img src="https://i.pinimg.com/736x/c9/f7/81/c9f781631b3e57c79aaffdf0af0a3bcd.jpg" alt="Foto 4">
+            <img src="https://i.pinimg.com/736x/c9/f7/81/c9f781631b3e57c79aaffdf0af0a3bcd.jpg" alt="Foto 6">
         </div>
         <div class="gallery-item">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCwvg4G4ThxtNdi3x7It9MC9RKsYbQGwBWSNExUcjKu8jFvTDvNWCWkLmABloNlq0uyI&usqp=CAU" alt="Foto 4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCwvg4G4ThxtNdi3x7It9MC9RKsYbQGwBWSNExUcjKu8jFvTDvNWCWkLmABloNlq0uyI&usqp=CAU" alt="Foto 7">
         </div>
         <div class="gallery-item">
-            <img src="https://i.pinimg.com/736x/47/93/ca/4793ca03101ef5b602bb2d44db2be7a4.jpg" alt="Foto 4">
+            <img src="https://i.pinimg.com/736x/47/93/ca/4793ca03101ef5b602bb2d44db2be7a4.jpg" alt="Foto 8">
         </div>
         <div class="gallery-item">
-            <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/07/ef7ae7bbf3301495fe3b199372876a6b.jpg?resize=550%2C1024&ssl=1" alt="Foto 4">
+            <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/07/ef7ae7bbf3301495fe3b199372876a6b.jpg?resize=550%2C1024&ssl=1" alt="Foto 9">
         </div>
         <div class="gallery-item">
-            <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/07/5f462925d4c6a151c3f77aad2f9fbd62.jpg?resize=736%2C492&ssl=1" alt="Foto 4">
+            <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/07/5f462925d4c6a151c3f77aad2f9fbd62.jpg?resize=736%2C492&ssl=1" alt="Foto 10">
         </div>
         <div class="gallery-item">
-            <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/07/ece2144a2abc07297315d957d38a58e9.jpg?resize=736%2C805&ssl=1" alt="Foto 4">
+            <img src="https://i0.wp.com/omeudiadia.com.br/wp-content/uploads/2022/07/ece2144a2abc07297315d957d38a58e9.jpg?resize=736%2C805&ssl=1" alt="Foto 11">
         </div>
-        
     </div>
 
 </body>
