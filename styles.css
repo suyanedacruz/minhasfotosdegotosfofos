@@ -46,3 +46,8 @@ h1 {
         flex: 1 1 100%;
     }
 }
+
+.rodape{
+    background-color: #ffcdcd;
+    height: 5vh;    
+}
