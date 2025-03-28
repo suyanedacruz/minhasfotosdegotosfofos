@@ -51,3 +51,9 @@ h1 {
     background-color: #ffcdcd;
     height: 20vh;    
 }
+
+.imagem img{
+    height: 50px;
+    width: 50px;
+
+}
